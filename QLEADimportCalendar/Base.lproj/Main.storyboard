@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.14" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="QLEADimportCalendar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 277" translatesAutoresizingMaskIntoConstraints="NO" id="oFC-7v-Vsu">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Subtraction 39" translatesAutoresizingMaskIntoConstraints="NO" id="uhd-Tr-dBK">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bGU-Os-SIr" userLabel="Middle container">
+                                <rect key="frame" x="85.666666666666686" y="316" width="204" height="50"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 470" translatesAutoresizingMaskIntoConstraints="NO" id="Ym7-eB-cu9">
+                                        <rect key="frame" x="0.0" y="0.0" width="204" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="204" id="H7u-SP-BeQ"/>
+                                            <constraint firstAttribute="height" constant="50" id="q0g-BS-URh"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="204" id="0ay-W8-68e"/>
+                                    <constraint firstAttribute="height" constant="50" id="u7b-9k-kDc"/>
+                                </constraints>
+                            </stackView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8_Down_Arrow" translatesAutoresizingMaskIntoConstraints="NO" id="0UC-yU-uHN">
+                                <rect key="frame" x="176.66666666666666" y="277" width="22" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="22" id="3gy-rR-rp8"/>
+                                    <constraint firstAttribute="height" constant="24" id="g53-Fi-Xqe"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bls-DV-sad">
+                                <rect key="frame" x="8" y="445" width="359" height="57"/>
+                                <state key="normal" backgroundImage="Group 461"/>
+                                <connections>
+                                    <action selector="importCalendarButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rb1-0o-gs8"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 460" translatesAutoresizingMaskIntoConstraints="NO" id="nXT-cS-5Gh">
+                                <rect key="frame" x="0.0" y="690" width="375" height="78"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Group 469 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="Ztw-KZ-95H">
+                                <rect key="frame" x="153" y="193.66666666666666" width="69" height="68.999999999999972"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="0Qj-Iu-tNk"/>
+                                    <constraint firstAttribute="width" constant="69" id="bhu-uF-Msu"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add all events to your favourite calendar app." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="c3f-x2-E40">
+                                <rect key="frame" x="26" y="395.66666666666669" width="304" height="19.333333333333314"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Status Bar - Light (2)" translatesAutoresizingMaskIntoConstraints="NO" id="VZS-lc-swb">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="bGU-Os-SIr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="24g-pc-TJG"/>
+                            <constraint firstAttribute="bottom" secondItem="nXT-cS-5Gh" secondAttribute="bottom" constant="44.100000000000001" id="2hN-Fu-Gda"/>
+                            <constraint firstItem="uhd-Tr-dBK" firstAttribute="trailing" secondItem="Sg8-Yu-7mq" secondAttribute="trailing" id="4ft-2E-eYu"/>
+                            <constraint firstItem="bls-DV-sad" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="67.5" id="5UE-EJ-NZE"/>
+                            <constraint firstItem="oFC-7v-Vsu" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6ZH-77-x1m"/>
+                            <constraint firstAttribute="trailing" secondItem="c3f-x2-E40" secondAttribute="trailing" constant="45" id="9Zu-hI-8tc"/>
+                            <constraint firstItem="Ztw-KZ-95H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BJY-vd-gVi"/>
+                            <constraint firstItem="0UC-yU-uHN" firstAttribute="top" secondItem="Ztw-KZ-95H" secondAttribute="bottom" constant="14.33" id="CPz-rw-dwM"/>
+                            <constraint firstItem="bls-DV-sad" firstAttribute="top" secondItem="c3f-x2-E40" secondAttribute="bottom" constant="30" id="Gha-bi-RtC"/>
+                            <constraint firstItem="bGU-Os-SIr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-65" id="Plq-y6-KoJ"/>
+                            <constraint firstItem="Sg8-Yu-7mq" firstAttribute="trailing" secondItem="bls-DV-sad" secondAttribute="trailing" constant="8" id="Q2O-Xu-Jw0"/>
+                            <constraint firstItem="VZS-lc-swb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="TXY-Iu-4ec"/>
+                            <constraint firstItem="Ztw-KZ-95H" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-177.83000000000001" id="Zbg-dZ-aNq"/>
+                            <constraint firstItem="uhd-Tr-dBK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="aS5-p2-6fQ"/>
+                            <constraint firstItem="uhd-Tr-dBK" firstAttribute="leading" secondItem="Sg8-Yu-7mq" secondAttribute="leading" id="aTD-sl-iyv"/>
+                            <constraint firstItem="oFC-7v-Vsu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="cPo-tZ-SOE"/>
+                            <constraint firstItem="VZS-lc-swb" firstAttribute="trailing" secondItem="Sg8-Yu-7mq" secondAttribute="trailing" id="enh-CH-4vL"/>
+                            <constraint firstItem="nXT-cS-5Gh" firstAttribute="trailing" secondItem="Sg8-Yu-7mq" secondAttribute="trailing" id="gTg-9H-DJa"/>
+                            <constraint firstItem="VZS-lc-swb" firstAttribute="leading" secondItem="Sg8-Yu-7mq" secondAttribute="leading" id="h7V-vm-Kpv"/>
+                            <constraint firstItem="c3f-x2-E40" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="26.100000000000001" id="iDZ-Rh-yeK"/>
+                            <constraint firstItem="bls-DV-sad" firstAttribute="leading" secondItem="Sg8-Yu-7mq" secondAttribute="leading" constant="8" id="jEb-qz-ycJ"/>
+                            <constraint firstItem="0UC-yU-uHN" firstAttribute="centerX" secondItem="Ztw-KZ-95H" secondAttribute="centerX" id="kSa-0V-p9p"/>
+                            <constraint firstAttribute="bottom" secondItem="uhd-Tr-dBK" secondAttribute="bottom" id="qFn-KP-K6w"/>
+                            <constraint firstItem="nXT-cS-5Gh" firstAttribute="leading" secondItem="Sg8-Yu-7mq" secondAttribute="leading" id="zw1-ud-PoK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Sg8-Yu-7mq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="34.729064039408868"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Group 460" width="393" height="78"/>
+        <image name="Group 461" width="359" height="57"/>
+        <image name="Group 469 (1)" width="69" height="69"/>
+        <image name="Group 470" width="204" height="50"/>
+        <image name="Rectangle 277" width="375" height="812"/>
+        <image name="Status Bar - Light (2)" width="375" height="44"/>
+        <image name="Subtraction 39" width="375" height="812"/>
+        <image name="icons8_Down_Arrow" width="22" height="24"/>
+    </resources>
+</document>
